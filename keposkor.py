@@ -56,4 +56,4 @@ while frame_index < total_frames:
 cap.release()
 
 if not ocr_detected:
-    print("Target string 'ANGGRAINI' not found in the video.")
+    print(f"Target string {target_string} not found in the video.")
